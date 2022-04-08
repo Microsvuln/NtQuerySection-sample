@@ -15,4 +15,4 @@ typedef struct _SECTION_BASIC_INFORMATION
 
 The rest of the code :
 
-' OpenFileMapping(SECTION_QUERY|FILE_MAP_READ|FILE_MAP_WRITE, FALSE, strSharedMemName); '
+` OpenFileMapping(SECTION_QUERY|FILE_MAP_READ|FILE_MAP_WRITE, FALSE, strSharedMemName); `
