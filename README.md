@@ -28,3 +28,7 @@ if (HANDLE hMap = OpenFileMappingW(SECTION_QUERY|SECTION_MAP_READ, FALSE, name))
     CloseHandle(hMap);
 }
 ```
+
+Structure information :
+
+https://processhacker.sourceforge.io/doc/ntmmapi_8h_source.html#l00178
